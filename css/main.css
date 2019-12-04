@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+  background-color: white;
+  font-family: 'Sigmar One', cursive;
+  font-family: 'Georgia', serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: block;
+  margin: 0;
+  padding: .6em;
+  background-color: #ffe500;
+}
+
+.header {
+  display: block;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Sigmar One', cursive;
+  color: #b20953;
+  text-align: center;
+  margin: 0;
+}
+
+a {
+  color: #fff;
+  background-color: #b2a212;
+  display: inline-block;
+  text-decoration: none;
+  padding: .5em .75em;
+  border-radius: 10px;
+}
+
+nav {
+  text-align: center;
+  display: block;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Georgia', serif;
+  list-style-type: none;
+}
+
+nav a:hover {
+  background-color: #cc1465;
+  color: #fff;
+  text-decoration: none;
+}
+
+header ul {
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.planets {
+  display: inline-block;
+  text-align: center;
+}
+
+body ul li {
+  color: white;
+}
+
+h2 {
+  color: #b20953;
+  font-family: 'Sigmar One', cursive;
+}
+img {
+  display: block;
+  width: 100%;
+}
+figcaption {
+  display: block;
+  text-align: left;
+  color: #2f2d13
+  font-family: 'Georgia', serif;
+  font-size: 1.125rem;
+}
+
+footer {
+  text-align: center;
+  display: block;
+  margin: 0;
+  padding: .6em;
+  background-color: #ffe500;
+}
