@@ -15,10 +15,13 @@ body {
 }
 
 header {
-  display: block;
   margin: 0;
   padding: .6em;
   background-color: #ffe500;
+}
+
+header li {
+  display: inline-block;
 }
 
 a {
